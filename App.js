@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Button, Text, StyleSheet, Platform, SafeAreaView, StatusBar, ScrollView, TouchableOpacity } from 'react-native';
 import Roam from 'roam-reactnative';
-import { roam } from './services'; // Ensure this is properly imported
+import { roam } from './services';
 
 const App = () => {
   const [userId, setUserId] = useState(null);
